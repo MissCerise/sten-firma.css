@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap");
+
+.contst {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
+  width: 500px;
+}
+
+.imagen-st {
+  position: relative;
+  width: 250px;
+  margin: auto;
+}
+
+.imagen-st1 {
+  width: 250px;
+  maargin: auto;
+}
+.imagen-st img {
+  width: 250px;
+  display: block;
+}
+.imagen-st1 img {
+  width: 250px;
+  display: block;
+}
+.texto-st {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding-top: 50px;
+  font-size: 9px;
+  font-family: Eagle Lake;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 3px black;
+  height: 30px;
+  width: 250px;
+  border-bottom: 1px solid white;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.texto-st:hover {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1.05); /* aparece con un suave zoom */
+}
