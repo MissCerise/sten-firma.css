@@ -27,8 +27,8 @@
 }
 .texto-st {
   position: absolute;
-  top: 20%;
-  left: 30%;
+  top: 10%;
+  left: 20%;
   transform: translate(-50%, -50%);
   color: white;
   padding-top: 50px;
@@ -49,4 +49,5 @@
   opacity: 1;
   transform: translate(-50%, -50%) scale(1.05); /* aparece con un suave zoom */
 }
+
 
